@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog</title>
+  <% include partials/library.ejs %>
+  <script type="text/javascript">
+    $(document).ready(function(){
 
+      $('button').on('Refesh', function(){
+          location.reload();
+      });
+    });
+
+  </script>
+</head>
+<body>
+
+  <div id="container">
+
+    <div class="header">
+      <h1>Blog</h1>
+      <p>"That's been one of my mantras - focus and simplicity. Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it's worth it in the end because once you get there, you can move mountains." - Steve Jobs</p>
+    </div>
+
+  <% include partials/nav.ejs %>
+<!-- -- -->
+    <div class="row">
+        <div class="card center">
+          <h1>Welcome to my blog.</h1>
+        </div>
+
+        <% for(var i = 0; i < usersdata.length; i++) { %> 
+          <div class="card">
+             <h3><%= usersdata[i].title %></h3>
+             <h4><%= usersdata[i].name %></h4>
+             <p><%= usersdata[i].subject %></p>
+          </div>
+        <% } %>
+        
+
+        <div class="card center">
+          <h1>Add new post.</h1>
+        </div>
+
+      <form id="contact-form" method="POST" action="/blog">
+        <br><label for="title">Title</label><br>
+        <input type="text" name="title"  class="form-control" ><br>
+        <br><label for="title">Name</label><br>
+        <input type="text" name="name"  class="form-control" ><br>
+        <br><label for="subject">Comment</label><br>
+        <textarea id="subject" name="subject" placeholder="Write something..." style="height:100px"></textarea><br>
+        <br><input type="submit" name="submit"><br>
+        
+      </form>
+        <button id="refresh">Refresh</button>
+<!-- -- -->
+
+    </div>
+
+    <div class="footer">
+      <h4>Crafted by Ziaul Choudhury &copy;.</h4>
+    </div>
+
+  </div>
+</body>
+</html>
