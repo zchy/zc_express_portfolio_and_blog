@@ -15,7 +15,7 @@ consist of little bit about myself and few of projects as a computer science stu
 ## Contact
 - contains contact info.
 
-### Run this program, you will need:
+### To run this program, you will need:
 - nodejs
 - body-parser
 - ejs
