@@ -18,6 +18,10 @@
   "engines": {
     "node": "8.11.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zchy/zc_express_portfolio_and_blog"
+  },
   "keywords":[
     "node",
     "express",

@@ -1,0 +1,6 @@
+{
+	"name":"zc_express_portfolio_and_blog",
+	"description":"a blog",
+	"repository":"https://github.com/zchy/zc_express_portfolio_and_blog",
+	"keywords": ["node","pg","dynamic","static","express","ejs"],
+}
