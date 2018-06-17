@@ -14,3 +14,11 @@ consist of little bit about myself and few of projects as a computer science stu
 
 ## Contact
 - contains contact info.
+
+### Run this program, you will need:
+- nodejs
+- body-parser
+- ejs
+- express
+- nodemon(optional)
+- pg(you'll need to create a database with table named blog with cloumns id(ai), title(text), name(text), subjcet(text))
