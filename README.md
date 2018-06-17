@@ -2,7 +2,7 @@
 
 ## This a dynamic web app that has been built with node, postgreSQL, ejs, express, and body-parser technology.
 
-## The web-application consists three pages profolio, blog, and contact.
+## The web-application consists of three pages: profolio, blog, and contact.
 
 ## Portfilio:
 consist of little bit about myself and few of projects as a computer science student.
