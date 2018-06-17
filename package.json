@@ -1,10 +1,9 @@
 {
   "name": "zc_express_portfolio_and_blog",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,17 +14,6 @@
     "nodemon": "^1.17.5",
     "pg": "^7.4.3"
   },
-  "engines": {
-    "node": "8.11.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zchy/zc_express_portfolio_and_blog"
-  },
-  "keywords":[
-    "node",
-    "express",
-    "pg",
-    "heroku"
-  ]
+  "devDependencies": {},
+  "description": "express portfolio and blog with contact info"
 }
